@@ -1,0 +1,41 @@
+body{
+  background:blue;
+}
+div.layer2,img.layer2{
+  background:url("C:\Users\amber\Desktop\untitled.png") no-repeat right top;
+  background-attachment:fixed;
+}
+
+
+h1,h2,h3,p,label{
+  color:#E0BAFF ;
+  font-family:"Beleren", "Fixed", "Teeny Tiny Pixls", "Terminal", monospace ; 
+}
+article, section{ color:pink ; 
+}
+header, footer{
+  overflow:auto;
+  text-align:center
+}
+a{
+  color:#C3FFFF ; font-family:"Beleren", "Fixed", "Teeny Tiny Pixls", "Terminal", monospace ;
+  text-decoration: none;
+}
+.media{
+  height:4%; width:4%;
+}
+.preview{
+  overflow:hidden;
+}
+/* id's I put in pages but have no styling for yet: pagelist, pageselect
+same but for classes: preview
+*/
+/*ul #pageselect{
+   list-style-type: none;margin: 0;padding: 0;overflow: hidden; background-color: #333333;
+} 
+.preview{
+  overflow:hidden
+}
+
+  image-rendering:-moz-crisp-edges;
+These lines don't work at all and I do not understand why*/

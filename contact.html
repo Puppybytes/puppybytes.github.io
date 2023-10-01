@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- bunch of metadata. same 4 every neocities page.-->
+	<link href="https://puppybytes.neocities.org/style.css" rel="stylesheet" type="text/css" media="all">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="article:author" content="Puppybytes">
+	<meta property="og:image" content="https://puppybytes.neocities.org/media/dog.jpg">
+	<link rel="shortcut icon" href="/media/dog.ico">
+	<meta property="og:site_name" content="Puppybytes">
+	<base href="https://puppybytes.neocities.org/" target="_blank">
+	<style>li a:hover {
+  background-color: #111111;
+  }</style>
+	<!-- Hey don't forget to update img + ico + bg, move style to stylesheet-->
+
+	<!-- this metadata changes per subpage -->
+	<meta name="description" content="The Place where you can contact me.">
+	<meta name="keywords" content="puppybytes, naomi_y, art, games, writing, shadowgovernment, contact, links">
+	<meta property="og:title" content="Puppybytes' Contact Form">
+	<meta property="og:description" content="The Place where you can contact me.">
+	<title>Puppybytes' Contact Form</title>
+	<!---
+	<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+	<script async="" src="link to script.js" data-website-id="site ID here"></script>
+  This is a bunch of code I've stolen and then modified from maia.crimew.gay, Will figure out how it works for myself relatively soon.
+  If you are maia and are reading this, I pirated you, also get patted idiot >:3 
+	-->
+</head>
+<body>
+  <div id="pageselect">
+  <ul style="list-style-type: none;margin: 0;padding: 0;overflow: hidden; background-color: #333333;">
+    <li style="float:left;"><a style="display: block;color:#C3FFFF;text-align: center;padding: 16px; text-decoration: none;" href="/index.htm">Main</a></li>
+    <li style="float:left;"><a style="display: block;color:#C3FFFF;text-align: center;padding: 16px; text-decoration: none;" href="/media.htm">Media</a></li>
+    <li style="float:left;"><a style="display: block;color:#C3FFFF;text-align: center;padding: 16px; text-decoration: none;" href="/contact.htm">Contact</a></li>
+    <li style="float:left;"><a style="display: block;color:#C3FFFF;text-align: center;padding: 16px; text-decoration: none;" href="/about.htm">About</a></li>
+  </ul><!--move inline css to stylesheet-->
+  </div>
+
+  <header>
+  <h1 id="mainpagepreview">Feel free to drop me a note</h1>
+  </header>
+  
+  <section>
+  <p>The form below SHOULD function as a way to send me messages, but since I'm the one coding it, it might not work at all, worst case you can still email me 
+  <a href="mailto:v1287jc2s@mozmail.com">Here</a> (powered by Firefox Relay)<br>
+  Currently, the form is still under construction and will not work. Feel free to practice submitting it though!<br><br>
+  All fields, save subject, are required.</p>
+  <form action="/form.php" method="post">
+    <label for="name">Preferred name:</label><br>
+    <input type="text" id="name" name="name" required="1"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required="1" autocomplete="1"><br>
+    <label for="top">Subject:</label><br>
+    <input type="text" id="top" name="top"><br>
+    <label for="msg">Message:</label><br>
+    <input type="text" id="msg" name="msg" required="1"><br><br>
+    <label for="bang">Mark this message as time-sensitive</label>
+    <input type="checkbox" id="bang" name="bang" value="bang"><br>
+    <input type="submit" value="Send it!">
+    <input type="reset" value="Retry">
+  </form>
+  </section>
+  <section>
+  <h2>Privacy</h2>
+  <p>The form is currently not collecting any data, any data submitted will not be shared with anyone but the Neocities website (whom will not handle it, as I've not coded that in yet)</p>
+  </section>
+	<footer>
+	<section id="pagelist">
+	<h2>Page List</h2>
+  
+	<p> hover over these links for more details about their contents!<br>
+		<a title="The page that contains all the solid chunks of writing I've done, tagged and sorted in reverse chronological order." href="/articles.htm">Articles</a>
+		<a title="The page where I store images, video, and text files I don't deem fit for the articles tab." href="/media.htm">Media</a>
+		<a title="The page you can use to send me a message so the important stuff isn't drowned out on social media" href="/contact.htm">Contact Form</a>
+		<a title="The page where you can find more information about what I do and who I am" href="/about.htm">About</a>
+	</p>
+	</section>
+	<p>this page was written and coded by Puppybytes(&#169;), hosted by Neocities, and inspired by my lovely friends</p>
+	</footer>
+</body>
+</html>
