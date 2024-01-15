@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- bunch of metadata. same 4 every neocities page.-->
+	<!-- bunch of metadata. same 4 every page.-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="article:author" content="Puppybytes">
-	<meta property="og:image" content="https://puppybytes.neocities.org/media/dog.jpg">
+	<meta property="og:image" content="/media/dog.jpg">
 	<link rel="shortcut icon" href="/media/dog.ico">
 	<meta property="og:site_name" content="Puppybytes">
-	<base href="https://puppybytes.neocities.org/" target="_blank">
+	<base href="https://puppybytes.neocities.org/">
 	<link href="/bland.css" rel="stylesheet" type="text/css" media="all">
 	<style>li a:hover {
   background-color: #111111;
