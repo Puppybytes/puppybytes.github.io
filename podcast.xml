@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <updated>2024-01-17T18:30:02Z</updated>
+    <updated>2003-12-13T18:30:02Z</updated>
     <author>
        <name>Puppybytes</name>
     </author>
     <title>Puppybytes' Website</title>
     <link href="https://puppybyt.es/articles.xml" rel="self"/>
     <link href="https://puppybyt.es/"/>
-    <description>The most recent articles on puppybytes' website.</description>
+    <description>A podcast hosted on Puppybytes' website.</description>
 
 
 </feed>
