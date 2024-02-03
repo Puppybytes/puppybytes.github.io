@@ -8,7 +8,7 @@
 	<meta property="og:image" content="/media/dog.jpg">
 	<link rel="shortcut icon" href="/media/dog.ico">
 	<meta property="og:site_name" content="Puppybytes">
-	<base href="https://puppybytes.neocities.org/">
+	<base href="https://puppybytes.github.io/">
 	<link href="/bland.css" rel="stylesheet" type="text/css" media="all">
 	<style>li a:hover {
   background-color: #111111;
@@ -18,9 +18,9 @@
 	<!-- this metadata changes per subpage -->
 	<meta name="description" content="The Place where Puppybytes gathers all the stuff it makes and posts it on the internet.">
 	<meta name="keywords" content="puppybytes, naomi_y, art, games, writing, shadowgovernment">
-	<meta property="og:title" content="Puppybytes' neocities">
+	<meta property="og:title" content="Puppybytes' website">
 	<meta property="og:description" content="The Place where Puppybytes gathers all the stuff it makes and posts it on the internet.">
-	<title>Puppybytes' Neocities</title>
+	<title>Puppybytes' website</title>
 	<!---
 	<link rel="alternate" type="application/rss+xml" href="/feed.xml">
 	<script async="" src="link to script.js" data-website-id="site ID here"></script>
@@ -59,7 +59,7 @@
 		<a title="The page where you can find more information about what I do and who I am" href="/about.htm">About</a>
 	</p>
 	</section>
-	<p>this page was written and coded by Puppybytes(&#169;), hosted by Neocities, and inspired by my lovely friends</p>
+	<p>this page was written and coded by Puppybytes(&#169;), hosted by Github Pages, and inspired by my lovely friends</p>
 	</footer>
 </body>
 </html>
